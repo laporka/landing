@@ -38,6 +38,10 @@
     .application-wrap-buttons{
         flex-direction: column;
     }
+
+    .application-wrap-info{
+        padding: 0px 16px 0px 16px;
+    }
 }
 
 @media screen and (max-width: 700px) {
