@@ -5,14 +5,15 @@
     padding: 104px 0px 104px 0px;
 }
 
-.application img{
-    width: 100%;
-}
-
 .application-wrap{
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.application-wrap-image{
+    display: flex;
+    justify-content: center;
 }
 
 .application-wrap-info h2{
@@ -42,6 +43,10 @@
 @media screen and (max-width: 700px) {
     .application-wrap{
         flex-direction: column;
+    }
+
+    .application img{
+        width: 100%;
     }
 
     .application-wrap-info{
